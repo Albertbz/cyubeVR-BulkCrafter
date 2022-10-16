@@ -5,16 +5,24 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Source Files\InternalFiles">
       <UniqueIdentifier>{7b6f0cff-6b04-429b-b503-d12aecac6fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BulkCrafter">
+      <UniqueIdentifier>{81a96ad4-c95e-4827-afaa-e5e9be015efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BulkCrafter\Header Files">
+      <UniqueIdentifier>{87d0d563-fb35-44c2-a3b2-0e254e8605a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BulkCrafter\Source Files">
+      <UniqueIdentifier>{deaab5fc-28d1-4e99-8242-5955d8e263ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BulkCrafter\Interfaces">
+      <UniqueIdentifier>{25c5aa5a-82ed-4dec-b6c3-9400ed522232}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -23,6 +31,9 @@
     </ClCompile>
     <ClCompile Include="Source\GameFunctions.cpp">
       <Filter>Source Files\InternalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulkCrafter\StandardBulkCrafter.cpp">
+      <Filter>Source Files\BulkCrafter\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +54,12 @@
     </ClInclude>
     <ClInclude Include="Source\GameAPITemplates.h">
       <Filter>Source Files\InternalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulkCrafter\BulkCrafter.h">
+      <Filter>Source Files\BulkCrafter\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulkCrafter\StandardBulkCrafter.h">
+      <Filter>Source Files\BulkCrafter\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
